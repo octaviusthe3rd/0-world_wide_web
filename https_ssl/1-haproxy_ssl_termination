@@ -23,5 +23,6 @@ frontend web-frontend
     default_backend web-backend
 
 backend web-backend
+    balance roundrobin
     server web-01 44.223.24.202:80
     server web-02 23.22.110.229:80
